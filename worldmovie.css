@@ -1,0 +1,73 @@
+#searchBar {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    outline: 0;
+    background-color: yellow;
+  }
+  #fullbox {
+    padding: 20px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: antiquewhite;
+  }
+  #movieList {
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    max-height: 250px;
+    overflow: scroll;
+  }
+  #movieList::-webkit-scrollbar {
+    width: 15px;
+  }
+  #movieList::-webkit-scrollbar-track {
+    background: rgb(15, 0, 0);
+  }
+ 
+  .titles {
+    padding: 10px;
+    margin: auto;
+    margin-left: 0;
+  }
+  .moviesDiv {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+  }
+  .moviesDiv:hover {
+    cursor: pointer;
+  }
+  .moviesImage {
+    width: 45px;
+    height: 45px;
+  }
+  #movieCard{
+    box-shadow: rgba(58, 3, 3, 0.2) 0px 2px 8px 0px;
+    border-radius: 6px;
+      padding: 20px;
+      margin: auto;
+      width: 500px;
+      text-align: center;
+  }
+  #cardImage{
+      width: 100%;
+      height: 400px;
+  }
+  #movieCard>p{
+      margin: 6px;
+  }
+  #movieCard>h2{
+      margin: 10px;
+  }
+  #errorHead{
+      text-align: center;
+  }
+  #movieList::-webkit-scrollbar-thumb {
+    background: rgb(172, 166, 166);
+  }
+  #movieList::-webkit-scrollbar-thumb:hover {
+    background: rgb(185, 177, 177);
+  }
